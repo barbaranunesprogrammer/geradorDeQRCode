@@ -1,16 +1,17 @@
-# 🚀 Gerador de QR Code para Terminal
+# 🚀 Kit de Utilitários para (Terminal QrCode e Senhas)
 
-![QR Code](https://img.shields.io/badge/qrcode-generator-blue)
+![Utilities](https://img.shields.io/badge/utilities-toolkit-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-16%2B-green)
 ![License](https://img.shields.io/badge/License-ISC-yellow)
 
-Um utilitário de linha de comando simples e interativo para gerar QR Codes diretamente no seu terminal. Ideal para compartilhar links, textos ou qualquer outra informação de forma rápida.
+Um conjunto de ferramentas de linha de comando para tarefas rápidas, como gerar QR Codes e senhas seguras, diretamente no seu terminal.
 
 ## ✨ Funcionalidades
 
-- **Geração Rápida**: Crie um QR Code a partir de qualquer URL ou texto.
-- **Exibição no Terminal**: O QR Code é renderizado diretamente na sua linha de comando, sem a necessidade de abrir outros aplicativos.
-- **Interface Interativa**: O script solicita a entrada do usuário de forma clara e objetiva.
+- **Gerador de QR Code**: Crie um QR Code a partir de qualquer URL ou texto e exiba-o instantaneamente.
+- **Gerador de Senhas**: Crie senhas seguras e personalizáveis.
+- **Interface Interativa**: Um menu simples para escolher a ferramenta que você deseja usar.
+- **Exibição no Terminal**: Todos os resultados são renderizados diretamente na sua linha de comando.
 
 ## 🔧 Pré-requisitos
 
@@ -41,7 +42,7 @@ Siga os passos abaixo para configurar o projeto localmente.
 
 ## ▶️ Como Usar
 
-Para executar a aplicação, utilize o comando abaixo. O script irá pedir para você inserir o texto ou link que deseja transformar em QR Code.
+Para executar a aplicação, utilize o comando abaixo. Você será apresentado a um menu para escolher entre gerar um QR Code ou uma senha.
 
 ```bash
 npm start
